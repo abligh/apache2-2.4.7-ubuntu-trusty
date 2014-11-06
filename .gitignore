@@ -934,3 +934,26 @@ support/suexec.o
 test/.deps
 test/Makefile
 build/config.sub
+	modules/lua/.libs/
+	modules/lua/lua_apr.lo
+	modules/lua/lua_apr.o
+	modules/lua/lua_apr.slo
+	modules/lua/lua_config.lo
+	modules/lua/lua_config.o
+	modules/lua/lua_config.slo
+	modules/lua/lua_dbd.lo
+	modules/lua/lua_dbd.o
+	modules/lua/lua_dbd.slo
+	modules/lua/lua_passwd.lo
+	modules/lua/lua_passwd.o
+	modules/lua/lua_passwd.slo
+	modules/lua/lua_request.lo
+	modules/lua/lua_request.o
+	modules/lua/lua_request.slo
+	modules/lua/lua_vmprep.lo
+	modules/lua/lua_vmprep.o
+	modules/lua/lua_vmprep.slo
+	modules/lua/mod_lua.la
+	modules/lua/mod_lua.lo
+	modules/lua/mod_lua.o
+	modules/lua/mod_lua.slo
