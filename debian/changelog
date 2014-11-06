@@ -1,3 +1,11 @@
+apache2 (2.4.7-1ubuntu4.2~sslstapling1) trusty; urgency=medium
+
+  * UPDATE: fix Crash during restart or at startup in mod_ssl, in
+      certinfo_free() function registered by ssl_stapling_ex_init()
+    - Backport of PR54357, LP#1366174
+
+ -- Alex Bligh <alex@alex.org.uk>  Thu, 06 Nov 2014 20:45:53 +0000
+
 apache2 (2.4.7-1ubuntu4.1) trusty-security; urgency=medium
 
   * SECURITY UPDATE: denial of service in mod_proxy
